@@ -12,7 +12,7 @@ def print_time():
         datetime.now(),'Thank you for Attention!')
 
 
-dag = DAG('time_major_dag_github', description='A simple time DAG',
+dag = DAG('adai2_time_major_dag_github', description='A simple time DAG',
 
           schedule_interval=None,
 
